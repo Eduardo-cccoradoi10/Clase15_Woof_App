@@ -1,31 +1,97 @@
 
 
-The Woof app is a list of dog photos with information about them including their name, age, and favorite activity. This app also uses Material Design to create a beautiful app experience for the user.
+# 🐶 Woof App - Clase 15
 
-Introduction
-------------
+Proyecto desarrollado en Android Studio utilizando **Jetpack Compose** para la asignatura **Programación 2** de la **Universidad Mariano Gálvez de Guatemala**.
 
-This is the starter code for the Woof app project. This project is an opportunity for you to learn Material3 and reinforce the concepts you've learned so far in Android Basics with Compose.
+## 👨‍💻 Estudiante
 
-Pre-requisites
---------------
+**Carlos Eduardo Corado Ibañez 0905-25-5315**
 
-- Rows/Columns
-- Modifiers
-- Scaffold
-- Adding images
-- Button click handlers
-- Functions
-- Classes
-- Lists
-- App architecture
+Universidad Mariano Gálvez de Guatemala
 
-Getting Started
----------------
+Programación 2
 
-1. Download the project
-2. Open the project in Android Studio
-3. Run the project
-=======
-# Clase15_Woof_App
->>>>>>> c4de8ddf4419b0c2a782513be50c8156623ba40c
+Año: 2026
+
+## 📋 Descripción
+
+Woof es una aplicación que muestra una lista de perros utilizando componentes de Material Design 3. Durante esta práctica se mejoró la interfaz aplicando principios de diseño visual como:
+
+- Paleta de colores personalizada.
+- Tarjetas (Cards) para cada elemento de la lista.
+- Espaciado consistente mediante dimensiones.
+- Soporte para tema claro y oscuro.
+- Esquinas redondeadas.
+- Tipografías personalizadas.
+- Barra superior con logo y nombre de la aplicación.
+
+## ✨ Características implementadas
+
+### 🎨 Diseño visual
+- Color principal verde (#006C4C).
+- Compatibilidad con modo claro y oscuro.
+- Contraste adecuado entre texto y fondo.
+
+### 🃏 Tarjetas
+- Cada perro se presenta dentro de una Card.
+- Separación visual entre elementos mediante padding.
+
+### 🔵 Imágenes
+- Fotografías recortadas con forma circular.
+- Uso de `ContentScale.Crop`.
+
+### 🔠 Tipografías personalizadas
+- Abril Fatface para títulos.
+- Montserrat para textos y contenido.
+
+### 📱 Material Design 3
+- Scaffold.
+- CenterAlignedTopAppBar.
+- MaterialTheme.
+- Cards.
+- LazyColumn.
+
+## 🛠 Tecnologías utilizadas
+
+- Kotlin
+- Android Studio
+- Jetpack Compose
+- Material Design 3
+- Android SDK
+
+## 📂 Estructura principal
+
+```text
+app
+├── data
+│   └── Dog.kt
+├── ui.theme
+│   ├── Color.kt
+│   ├── Theme.kt
+│   ├── Shape.kt
+│   └── Type.kt
+├── MainActivity.kt
+└── res
+    ├── drawable
+    ├── font
+    └── values
+```
+
+## 📸 Capturas
+
+### Tema Claro
+Agregar captura aquí.
+
+### Tema Oscuro
+Agregar captura aquí.
+
+## 🎯 Aprendizajes obtenidos
+
+- Uso de MaterialTheme en Jetpack Compose.
+- Personalización de temas claros y oscuros.
+- Creación de interfaces modernas con Cards.
+- Implementación de tipografías personalizadas.
+- Uso de Scaffold y TopAppBar.
+- Organización visual mediante Shapes y espacios consistentes.
+
